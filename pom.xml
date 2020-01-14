@@ -98,6 +98,7 @@
         <module>network-store-model</module>
         <module>network-store-client</module>
         <module>network-store-integration-test</module>
+        <module>network-store-iidm-tck</module>
     </modules>
 
     <build>
