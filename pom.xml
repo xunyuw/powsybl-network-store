@@ -67,6 +67,7 @@
 
         <cassandraunit.version>3.11.2.0</cassandraunit.version>
         <guava.version>28.2-jre</guava.version>
+        <groovy.version>2.5.8</groovy.version>
         <jib.version>1.8.0</jib.version>
         <jodatime.version>2.10.5</jodatime.version>
         <junit.version>4.12</junit.version>
@@ -79,7 +80,7 @@
         <springfox.version>2.9.2</springfox.version>
         <swagger.version>1.6.0</swagger.version>
 
-        <powsybl-core.version>3.0.0</powsybl-core.version>
+        <powsybl-core.version>3.2.0</powsybl-core.version>
         <powsybl-single-line-diagram.version>1.1.0</powsybl-single-line-diagram.version>
 
         <sonar.jacoco.reportPaths>
@@ -233,6 +234,11 @@
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>${guava.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.codehaus.groovy</groupId>
+                <artifactId>groovy</artifactId>
+                <version>${groovy.version}</version>
             </dependency>
             <dependency>
                 <groupId>io.dropwizard.metrics</groupId>
